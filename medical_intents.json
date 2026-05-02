@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day"],
+      "responses": ["Hello! Ask me about any disease or symptoms."]
+    },
+
+    {
+      "tag": "malaria",
+      "patterns": ["What is malaria", "malaria symptoms", "treatment for malaria", "fever and chills disease"],
+      "responses": ["Malaria is caused by parasites transmitted by mosquitoes. Symptoms include fever, chills, and sweating."]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": ["What is diabetes", "high blood sugar disease", "diabetes symptoms"],
+      "responses": ["Diabetes is a condition where blood sugar levels are too high due to insulin problems."]
+    },
+    {
+      "tag": "hypertension",
+      "patterns": ["high blood pressure", "hypertension symptoms", "what is hypertension"],
+      "responses": ["Hypertension is a condition where blood pressure is consistently too high."]
+    },
+    {
+      "tag": "typhoid",
+      "patterns": ["typhoid symptoms", "what is typhoid", "fever and stomach pain disease"],
+      "responses": ["Typhoid is a bacterial infection spread through contaminated food and water."]
+    },
+    {
+      "tag": "asthma",
+      "patterns": ["asthma symptoms", "difficulty breathing disease", "what is asthma"],
+      "responses": ["Asthma is a condition where airways become inflamed and narrow."]
+    },
+    {
+      "tag": "tuberculosis",
+      "patterns": ["TB symptoms", "tuberculosis cough", "what is tuberculosis"],
+      "responses": ["Tuberculosis is a bacterial infection that mainly affects the lungs."]
+    },
+    {
+      "tag": "covid19",
+      "patterns": ["covid symptoms", "coronavirus disease", "loss of smell illness"],
+      "responses": ["COVID-19 is a viral infection affecting the respiratory system."]
+    },
+    {
+      "tag": "flu",
+      "patterns": ["flu symptoms", "influenza", "body aches and fever"],
+      "responses": ["Flu is a viral infection causing fever, cough, and body aches."]
+    },
+    {
+      "tag": "pneumonia",
+      "patterns": ["pneumonia symptoms", "lung infection disease"],
+      "responses": ["Pneumonia is an infection that inflames air sacs in the lungs."]
+    },
+    {
+      "tag": "ulcer",
+      "patterns": ["stomach ulcer", "burning stomach pain"],
+      "responses": ["Ulcers are sores that develop on the stomach lining."]
+    },
+    {
+      "tag": "migraine",
+      "patterns": ["severe headache", "migraine symptoms"],
+      "responses": ["Migraine is a neurological condition causing intense headaches."]
+    },
+    {
+      "tag": "arthritis",
+      "patterns": ["joint pain disease", "arthritis symptoms"],
+      "responses": ["Arthritis causes inflammation and pain in joints."]
+    },
+    {
+      "tag": "anemia",
+      "patterns": ["low blood symptoms", "anemia tiredness"],
+      "responses": ["Anemia occurs when you lack enough healthy red blood cells."]
+    },
+    {
+      "tag": "cholera",
+      "patterns": ["cholera symptoms", "severe diarrhea disease"],
+      "responses": ["Cholera is a bacterial infection causing severe diarrhea."]
+    },
+    {
+      "tag": "hepatitis",
+      "patterns": ["liver infection", "hepatitis symptoms"],
+      "responses": ["Hepatitis is inflammation of the liver, often caused by viruses."]
+    },
+    {
+      "tag": "meningitis",
+      "patterns": ["meningitis symptoms", "brain infection disease"],
+      "responses": ["Meningitis is inflammation of the membranes around the brain and spinal cord."]
+    },
+    {
+      "tag": "cancer",
+      "patterns": ["what is cancer", "uncontrolled cell growth"],
+      "responses": ["Cancer is a disease where abnormal cells grow uncontrollably."]
+    },
+    {
+      "tag": "stroke",
+      "patterns": ["stroke symptoms", "brain blood flow problem"],
+      "responses": ["Stroke occurs when blood supply to part of the brain is interrupted."]
+    },
+    {
+      "tag": "heart_disease",
+      "patterns": ["heart disease symptoms", "chest pain illness"],
+      "responses": ["Heart disease refers to various conditions affecting the heart."]
+    },
+    {
+      "tag": "kidney_disease",
+      "patterns": ["kidney failure", "kidney disease symptoms"],
+      "responses": ["Kidney disease affects the kidneys' ability to filter waste."]
+    },
+    {
+      "tag": "bronchitis",
+      "patterns": ["bronchitis cough", "airway inflammation"],
+      "responses": ["Bronchitis is inflammation of the bronchial tubes."]
+    },
+    {
+      "tag": "eczema",
+      "patterns": ["skin rash itching", "eczema symptoms"],
+      "responses": ["Eczema is a condition that makes skin itchy and inflamed."]
+    },
+    {
+      "tag": "psoriasis",
+      "patterns": ["scaly skin disease", "psoriasis symptoms"],
+      "responses": ["Psoriasis causes skin cells to build up and form scales."]
+    },
+    {
+      "tag": "depression",
+      "patterns": ["feeling sad always", "depression symptoms"],
+      "responses": ["Depression is a mental health disorder causing persistent sadness."]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": ["anxiety symptoms", "constant worry"],
+      "responses": ["Anxiety is a mental health condition involving excessive fear."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you"],
+      "responses": ["Goodbye! Stay healthy."]
+    }
+  ]
+}
